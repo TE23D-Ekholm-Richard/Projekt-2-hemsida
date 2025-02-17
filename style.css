@@ -1,0 +1,20 @@
+body{
+    background-color: #95D8FF;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    background-color: #DAF6C2;
+    margin-left: 170px;
+    margin-right: 170px;
+    flex-direction: row-reverse;
+    
+}
+
+img{
+    width: 50px;
+}
