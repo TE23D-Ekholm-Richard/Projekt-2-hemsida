@@ -1,5 +1,9 @@
 body{
     background-color: #95D8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -12,9 +16,42 @@ body{
     margin-left: 170px;
     margin-right: 170px;
     flex-direction: row-reverse;
+    padding-left: 500px;
+    padding-right: 500px;
     
 }
 
 img{
     width: 50px;
+}
+
+
+.Underrubrik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    background-color: #DAF6C2;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 472px;
+    padding-right:472px;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:150px;
+    
+}
+
+.product{
+    background-color: #5966BB;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
