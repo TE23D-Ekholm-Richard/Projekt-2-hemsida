@@ -55,3 +55,16 @@ main{
     align-items: center;
     padding: 20px;
 }
+
+.price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-weight: bold;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
