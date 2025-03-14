@@ -13,11 +13,11 @@ body{
     text-align: center;
     border-style: solid;
     background-color: #DAF6C2;
-    margin-left: 170px;
-    margin-right: 170px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
     flex-direction: row-reverse;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 400px;
+    padding-right: 400px;
     
 }
 
@@ -36,8 +36,8 @@ img{
     margin-top: 5px;
     padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 472px;
-    padding-right:472px;
+    padding-left: 200px;
+    padding-right:200px;
 }
 
 main{
@@ -51,6 +51,7 @@ main{
 .product{
     background-color: #5966BB;
     border-style: solid;
+    border-color: white;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -68,3 +69,20 @@ footer{
     background-color: black;
     color: white;
 }
+
+
+.korg{
+    display: flex;
+    flex-direction: column-reverse;    
+align-items: center; 
+margin-right: 90%; 
+border-style: solid;
+width: 10%;
+background-color: white;
+
+}
+
+.korg img{
+    margin-bottom: 5px;
+}
+
